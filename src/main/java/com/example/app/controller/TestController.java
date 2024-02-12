@@ -38,6 +38,8 @@ public class TestController {
     @GetMapping(path="/square-area")
     public String getSquareArea() {
 
+
+        // this will  calculate square area
         double squareArea = calculateShapes.calculateSquareArea();
         String sq1 = "Area of Square is " + squareArea;
         return sq1;
